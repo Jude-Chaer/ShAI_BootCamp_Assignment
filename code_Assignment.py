@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 #import time
 # Load your dataset
-df = pd.read_csv('/content/Salaries.csv')
+df = pd.read_csv('./content/Salaries.csv')
 df.head()
 df.columns
 num_rows, num_cols = df.shape
